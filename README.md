@@ -1,0 +1,1 @@
+auto-install-webpack-plugin

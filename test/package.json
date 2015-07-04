@@ -1,0 +1,8 @@
+{
+  "name": "auto-install-webpack-plugin-test",
+  "version": "1.0.0",
+  "description": "A simple package to test auto-install-webpack-plugin",
+  "main": "./index",
+  "private": true,
+  "author": "Renke Grunwald"
+}
