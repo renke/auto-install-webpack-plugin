@@ -1,4 +1,4 @@
-var AutoInstallPlugin = require("../index.js")
+var AutoInstallPlugin = require("../index.js");
 
 module.exports = {
     context: __dirname,
@@ -12,4 +12,4 @@ module.exports = {
     plugins: [
       new AutoInstallPlugin({save: true}),
     ],
-}
+};
