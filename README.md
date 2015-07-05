@@ -1,7 +1,7 @@
 auto-install-webpack-plugin
 ===========================
 
-A Webpack plugin that automatically installs packages that contain your require'd modules.
+A [Webpack](http://webpack.github.io/) plugin that automatically installs packages that contain your require'd modules.
 
 Whenever Webpack resolves a requested module, the plugin first checks if the plugin installed and then tries to install the corresponding package using npm.
 
