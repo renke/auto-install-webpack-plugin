@@ -1,6 +1,6 @@
 {
   "name": "auto-install-webpack-plugin",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "Automatically install required modules.",
   "main": "index.js",
   "scripts": {
