@@ -7,7 +7,7 @@ Whenever Webpack resolves a requested module, the plugin first checks if the plu
 
 For example, assuming the package [lodash.times](https://www.npmjs.com/package/lodash.times) is not currently installed, but you require it in your code like this:
 
-```
+```JavaScript
 var times = require("lodash.times");
 
 times(5, function(i) {
@@ -27,7 +27,7 @@ Automatic installation of packages using the plugin should work in all language 
 
 Just add an instance of AutoInstallPlugin to your plugins array.
 
-```
+```JavaScript
 var AutoInstallPlugin = require("auto-install-webpack-plugin");
 
 module.exports = {
