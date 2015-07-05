@@ -15,9 +15,9 @@ times(5, function(i) {
 });
 ```
 
-Running `webpack` now without using the plugin results in an error because the module cannot be resolved. However, with the plugin enabled `lodash.times` will be automatically installed without forcing you to go to your terminal and execute `npm install lodash.times`.
+Running `webpack` nowwithout using the plugin will result in an error because the module cannot be resolved. However, with the plugin enabled `lodash.times` will be automatically installed without forcing you to go to your terminal and execute `npm install lodash.times`.
 
-Automatic installation of packages using the plugin should work in all language that are supporte by the various Webpack loaders.
+Automatic installation of packages using the plugin should work in all language that are supported by the various Webpack loaders (such as loaders for Babel or Less).
 
 ## Installation ##
 
