@@ -3,7 +3,7 @@ auto-install-webpack-plugin
 
 A [Webpack](http://webpack.github.io/) plugin that automatically installs packages that contain your require'd modules.
 
-Whenever Webpack resolves a requested module, the plugin first checks if the plugin installed and then tries to install the corresponding package using npm.
+Whenever Webpack resolves a requested module, the plugin first checks if the module is installed and then tries to install the corresponding package using npm.
 
 For example, assuming the package [lodash.times](https://www.npmjs.com/package/lodash.times) is not currently installed, but you require it in your code like this:
 
@@ -15,7 +15,7 @@ times(5, function(i) {
 });
 ```
 
-Running `webpack` nowwithout using the plugin will result in an error because the module cannot be resolved. However, with the plugin enabled `lodash.times` will be automatically installed without forcing you to go to your terminal and execute `npm install lodash.times`.
+Running `webpack` without using the plugin will result in an error because the module cannot be resolved. However, with the plugin enabled `lodash.times` will be automatically installed without forcing you to go to your terminal and execute `npm install lodash.times`.
 
 Automatic installation of packages using the plugin should work in all language that are supported by the various Webpack loaders (such as loaders for Babel or Less).
 
