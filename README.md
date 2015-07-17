@@ -5,7 +5,7 @@ A [Webpack](http://webpack.github.io/) plugin that automatically installs packag
 
 Whenever Webpack resolves a requested module, the plugin first checks if the module is installed and then tries to install the corresponding package using npm.
 
-For example, assuming the package [lodash.times](https://www.npmjs.com/package/lodash.times) is not currently installed, but you require it in your code like this:
+For example, assuming the packages [lodash.times](https://www.npmjs.com/package/lodash.times) is not currently installed, but you require it in your code like this:
 
 ```JavaScript
 var times = require("lodash.times");
