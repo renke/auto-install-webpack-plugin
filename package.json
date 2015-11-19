@@ -7,7 +7,7 @@
     "prepublish": "babel lib --out-file index.js"
   },
   "author": "Renke Grunwald <renke@renke.org> (http://renke.org)",
-  "license": "MIT",
+  "license": "ISC",
   "repository": {
     "type": "git",
     "url": "https://github.com/renke/auto-install-webpack-plugin.git"
