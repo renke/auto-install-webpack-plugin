@@ -1,3 +1,5 @@
+**This plugin is deprecated in favor of [npm-install-webpack-plugin](https://github.com/ericclemmons/npm-install-webpack-plugin)!**
+
 auto-install-webpack-plugin
 ===========================
 
